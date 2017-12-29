@@ -1,0 +1,199 @@
+/***************START OF HEADER***************/
+header {
+	background-image: url('http://wallup.net/wp-content/uploads/2016/01/7857-Rapture-water-sea-video_games-BioShock-748x499.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:2%;
+	color: #5ffcd6;
+}
+
+/*********START OF BUTTON*********/
+.button {
+	display:block;
+	margin:2%;
+	text-align:left;
+	color: #5ffcd6;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+span:hover {
+	color: #414A4C;
+	transition: 1s;
+}
+ 
+.sidenav {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #414A4C;
+	transition: 0.5s;
+	overflow-x: hidden;
+	padding-top: 60px;
+	
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 40px;
+	color: #5ffcd6;
+	display: block;
+	transition: 0.7s;
+}
+
+.sidenav a:hover {
+	color: #167c5c;
+	text-decoration: none;
+}
+
+
+/*********END OF BUTTON*********/
+
+.profile-pic {
+	margin: 0 auto;
+}
+
+.desc {
+	padding-bottom:1%;
+}
+
+/*********SWITCH****************/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #414A4C;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #5ffcd6;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/********END SWITCH*************/
+
+.social {
+	height: 64px;
+	width: 64px;
+	transition: .7s;
+}
+
+.social:hover {
+	opacity: .5;
+}
+
+/***************END OF HEADER*************************/
+
+/***************START OF CONTENT*********************/
+main {
+	background: #424242;
+	color: #5ffcd6;
+	padding:1%;
+}
+
+#Dev {
+	background: #414A4C;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.row-title {
+	padding: 1%;
+}
+
+.portfolio-pic {
+	height: 95%;
+	width: 95%;
+	margin: 0 auto;
+	transition: 0.7s;
+}
+
+.portfolio-pic:hover {
+	opacity: .5;
+}
+
+.box {
+	border: solid 2px #5ffcd6;
+	border-radius:10px;
+}
+
+
+#admin {
+	transition: 1.7s;
+	display:none;
+
+
+}
+
+#Dev {
+	transition: 1.7s;
+
+}
+
+/***************END OF CONTENT************************/
+
+footer {
+	background: #424242;
+	padding: 1%;
+	color: #5ffcd6;
+}
+
+/***************MEDIA QUERIES************************/
+

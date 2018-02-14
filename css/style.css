@@ -115,8 +115,17 @@ main {
 
 
 .cbox {
-  margin-top: 2%;
+  padding: 2%;
+  margin: 2%; 
+  background: #414A4C;
+  border-radius: 20px;
+  transition: .9s;
   
+}
+
+.cbox:hover {
+  
+  box-shadow: 2px 2px 8px #5ffcd6;
 }
 
 .bubble-list li {

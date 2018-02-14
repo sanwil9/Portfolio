@@ -68,64 +68,6 @@ span:hover {
 	padding-bottom:1%;
 }
 
-/*********SWITCH****************/
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
-
-.switch input {display:none;}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #414A4C;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #5ffcd6;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
-
-/********END SWITCH*************/
 
 .social {
 	height: 64px;
@@ -147,7 +89,8 @@ main {
 }
 
 #Dev {
-	background: #414A4C;
+  position: relative;
+	background: #061C29;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -162,30 +105,41 @@ main {
 	height: 95%;
 	width: 95%;
 	margin: 0 auto;
-	transition: 0.7s;
+	transition: 0.2s;
 }
 
 .portfolio-pic:hover {
 	opacity: .5;
-}
-
-.box {
-	border: solid 2px #5ffcd6;
-	border-radius:10px;
+  cursor: pointer;
 }
 
 
-#admin {
-	transition: 1.7s;
-	display:none;
-
-
+.cbox {
+  margin-top: 2%;
+  
 }
 
-#Dev {
-	transition: 1.7s;
-
+.bubble-list li {
+  background: #424242;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 2%;
 }
+
+.cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+  background-color: #061C29;
+  z-index: 1;
+}
+
+.cover:hover {
+  cursor: pointer;
+}
+
 
 /***************END OF CONTENT************************/
 
@@ -194,6 +148,4 @@ footer {
 	padding: 1%;
 	color: #5ffcd6;
 }
-
-/***************MEDIA QUERIES************************/
 

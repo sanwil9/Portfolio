@@ -115,11 +115,12 @@ main {
 
 
 .cbox {
-  padding: 2%;
+  height: 45vh;
+  padding: 4%;
   margin: 2%; 
   background: #414A4C;
   border-radius: 20px;
-  transition: .9s;
+  transition: .4s;
   
 }
 
@@ -129,10 +130,10 @@ main {
 }
 
 .bubble-list li {
-  background: #424242;
-  border-radius: 20px;
+  background: #061C29;
+  border-radius: 15px;
   margin: 2%;
-  padding: 3%;
+  padding: 4%;
 }
 
 .cover {
